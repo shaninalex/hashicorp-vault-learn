@@ -1,5 +1,9 @@
 # Hashicorp Vault simple example
 
+```bash
+mkdir -p volumes/{config,file,logs}
+```
+
 Create file storage, open 8200 port and enable ui. To be able to login first 
 we need to create user in vault:
 
